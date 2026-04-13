@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Changelog Component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="changelog-card" aria-label="Project changelog">
+      <header class="changelog-header">
+        <p class="changelog-label">Latest updates</p>
+        <h1>Product Changelog</h1>
+        <p class="changelog-intro">
+          Keep track of the latest improvements, bug fixes, and release highlights.
+        </p>
+      </header>
+
+      <div class="timeline">
+        <article class="timeline-entry">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <div class="entry-meta">
+              <time datetime="2026-04-10">April 10, 2026</time>
+              <span class="entry-version">v2.4.0</span>
+            </div>
+            <h2>New analytics dashboard</h2>
+            <p>
+              Added a modern analytics dashboard with advanced filters and performance insights to help teams monitor progress faster.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-entry">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <div class="entry-meta">
+              <time datetime="2026-03-22">March 22, 2026</time>
+            </div>
+            <h2>Improved accessibility support</h2>
+            <p>
+              Enhanced screen reader labels, keyboard navigation, and contrast across the interface for a more inclusive experience.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-entry">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <div class="entry-meta">
+              <time datetime="2026-02-14">February 14, 2026</time>
+              <span class="entry-version">v2.3.1</span>
+            </div>
+            <h2>Performance and stability updates</h2>
+            <p>
+              Rolled out background optimization fixes, reduced load time, and resolved multiple minor issues that improved reliability.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
